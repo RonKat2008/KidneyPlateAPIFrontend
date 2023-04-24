@@ -1,5 +1,13 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Saira:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url("../css/bootstrap.min.css");
+@import url("../css/bootstrap-icons.css");
+@import url("../css/all.min.css");
+@import url("../css/fontawesome.min.css");
+@import url("../css/swiper-bundle.min.css");
+@import url("../css/animate.css");
+
+
 * {
     margin: 0;
     padding: 0;
@@ -464,11 +472,11 @@ video {
 }
 
 .sec-mar-top {
-    margin-top: 120px
+    margin-top: 50px
 }
 
 .sec-mar-bottom {
-    margin-bottom: 120px
+    margin-bottom: 50px
 }
 
 
@@ -710,7 +718,7 @@ video {
 }
 
 .sec-title {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     text-align: center;
     margin-top: -10px
 }
@@ -718,7 +726,7 @@ video {
 .sec-title h2 {
     font-family: saira, sans-serif;
     font-weight: 700;
-    font-size: 44px;
+    font-size: 36px;
     text-align: center;
     color: #212121;
     margin-bottom: 15px
@@ -731,7 +739,7 @@ video {
 }
 
 .sec-title p {
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     color: #696969;
     margin: 0
@@ -749,16 +757,16 @@ video {
 
 .breadcrumbs {
     position: relative;
-    min-height: 500px;
+    min-height: 200px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 2, 20, 0.75)), to(rgba(0, 2, 20, 0.75))), url(../img/breadcrumbs-bg.jpg);
-    background-image: linear-gradient(rgba(0, 2, 20, 0.75), rgba(0, 2, 20, 0.75)), url(../img/breadcrumbs-bg.jpg);
+    background-image: linear-gradient(rgba(188, 228, 235, 0.89), rgba(117, 179, 173, 0.75)), url(../img/breadcrumbs-bg.jpg), url(../img/breadcrumbs-bg.jpg);
     background-size: cover;
     background-position: center center
 }
 
 @media only screen and (min-width:1200px) and (max-width:1399px) {
     .breadcrumbs {
-        min-height: 400px
+        min-height: 200px
     }
 }
 
@@ -776,21 +784,21 @@ video {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: flex-end;
+    -ms-flex-pack: flex-end;
+    justify-content: flex-end;
     min-height: 500px
 }
 
 @media only screen and (min-width:1200px) and (max-width:1399px) {
     .breadcrumb-wrapper {
-        min-height: 400px
+        min-height: 250px
     }
 }
 
 @media(max-width:767px) {
     .breadcrumb-wrapper {
-        min-height: 320px;
+        min-height: 250px;
         text-align: center
     }
 }
@@ -798,7 +806,7 @@ video {
 .breadcrumb-wrapper h1 {
     font-family: saira, sans-serif;
     font-weight: 600;
-    font-size: 55px;
+    font-size: 40px;
     color: #fff;
     margin-bottom: 10px
 }
@@ -812,8 +820,9 @@ video {
 .breadcrumb-wrapper span {
     font-family: saira, sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
+    margin-bottom: 30px;
     text-transform: capitalize
 }
 
@@ -1476,9 +1485,64 @@ header.style-1 .header-logo {
 }
 
 .header-logo img {
-    width: 290px;
+    width: 250px;
 }
 
+.food-table thead  {
+border: 0px !important;
+}
+
+.table>:not(:first-child) {
+    border-top: 0px solid #333;
+}
+
+.food-search input, .food-search button {
+    height: 30px;
+    font-size: 14px;
+    line-height: 17px;
+
+}
+
+.food-search button {
+background-color: #b52327; }
+.f-13 { font-size: 13px;}
+.food-table th {
+     border-top: 1.4px solid #b32324;
+     border-bottom: 1.4px solid #b32324;
+     background-color: #f3feff;
+    padding: 6px 10px;
+    font-size: 13px;
+}
+
+.food-table td { font-size: 14px;
+    padding: 4px 10px;
+    vertical-align: middle;}
+
+.food-table input, .food-table select { 
+    padding: 2px 10px;
+    height: 28px;
+    text-align: center;
+    line-height: 13px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.food-table .btn-outline-primary {
+    color: #b12424;
+    border: 1px solid #b12424;
+    border-radius: 5px !important;
+    padding: 0px 6px;
+    font-family: saira, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: transparent;
+}
+
+.food-table  tfoot th { border:  0px;}
+.food-table .btn-outline-primary:hover {
+    background-color: #b12424;
+    color: #fff;
+}
 @media(max-width:576px) {
     header.style-1 .header-logo {
         max-width: 180px
@@ -1989,16 +2053,19 @@ header.style-1 .mobile-menu-form .input-with-btn button {
 
 .header-area-2 .mobile-menu-btn span {
     font-weight: 600;
-    background: #00b49d;
-    color: #fff;
-    padding: 22px 30px;
-    -webkit-transition: .35s;
-    transition: .35s;
-    border-radius: 0 100px 100px 0
+color: #333;
+padding: 8px 20px;
+-webkit-transition: .35s;
+transition: .35s;
+border-radius: 10px;
+margin-right: 35px;
+background: #fff;
 }
 
 .header-area-2 .mobile-menu-btn span:hover {
-    background: #2e2e2e
+    background: #2e2e2e;
+    color: #fff;
+    cursor: pointer;
 }
 
 .header-area-2 .header-btn {
@@ -2102,7 +2169,7 @@ header.style-1 .mobile-menu-form .input-with-btn button {
 }
 
 .header-area-2 .main-menu .menu-list>li a {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     color: #111;
     padding: 20px 0;
@@ -2123,6 +2190,11 @@ header.style-1 .mobile-menu-form .input-with-btn button {
     color: #b32324
 }
 
+.header-area-2 .main-menu .menu-list .active {
+    color: #b32324;
+    
+
+}
 @media(max-width:991px) {
     .header-area-2 .main-menu .menu-list>li a {
         padding: 12px 0;
@@ -2980,8 +3052,8 @@ header.style-1 .mobile-menu-form .input-with-btn button {
 
 .intro-right h2 {
     font-family: saira, sans-serif;
-    font-weight: 700;
-    font-size: 44px;
+    font-weight: 600;
+    font-size: 40px;
     color: #212121;
     margin-bottom: 20px
 }
@@ -2999,7 +3071,7 @@ header.style-1 .mobile-menu-form .input-with-btn button {
 }
 
 .intro-right p {
-    font-size: 16px;
+    font-size: 14px;
     color: #696969;
     margin-bottom: 20px
 }
@@ -5335,7 +5407,9 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .intro-right.two h2 {
-    font-family: poppins, sans-serif
+    font-family: saira, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
 }
 
 .intro-right.two span {
@@ -6456,7 +6530,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     -webkit-box-shadow: 3px 2px 35px rgba(0, 27, 85, .08);
     box-shadow: 3px 2px 35px rgba(0, 27, 85, .08);
     border-radius: 2px;
-    padding: 20px
+    padding: 10px 20px;
 }
 
 .single-person .person-info h5 {
@@ -6467,7 +6541,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     display: inline-block;
     font-family: saira, sans-serif;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 18px;
     color: #212121;
     -webkit-transition: all .5s ease-out 0s;
     transition: all .5s ease-out 0s
@@ -7484,7 +7558,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 2px;
-    height: 50px;
+    height: 35px;
     width: 100%;
     margin-bottom: 20px;
     font-size: 14px;
@@ -7515,22 +7589,23 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .contact-form form textarea {
-    height: 270px;
+    height: 200px;
     resize: none;
     padding: 10px
 }
 
 .mapouter iframe {
     position: relative;
-    height: 290px;
-    width: 100%
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
 }
 
 .contact-information {
     background: #fff;
     -webkit-box-shadow: 3px 2px 35px rgba(0, 27, 85, .08);
     box-shadow: 3px 2px 35px rgba(0, 27, 85, .08);
-    border-radius: 5px;
+    border-radius: 30px;
     margin-top: 30px;
     padding: 30px
 }
@@ -7553,8 +7628,8 @@ only screen and (min-width:768px) and (max-width:991px) {
 }
 
 .single-info .icon {
-    min-width: 70px;
-    height: 70px;
+    min-width: 40px;
+    height: 40px;
     position: relative;
     margin-right: 20px;
     -webkit-transition: all .5s ease-out 0s;
@@ -7580,15 +7655,15 @@ only screen and (min-width:768px) and (max-width:991px) {
     border: 2px solid #eee;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    height: 70px;
-    width: 70px;
-    line-height: 70px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
     text-align: center;
     border-radius: 50%;
     overflow: hidden;
-    color: #212121;
-    font-size: 24px;
-    background-color: #fff;
+    color: #ee3027;
+    font-size: 16px;
+    background-color: #d4f3f5;
     -webkit-transition: all .5s ease-out 0s;
     transition: all .5s ease-out 0s
 }
@@ -7597,7 +7672,7 @@ only screen and (min-width:768px) and (max-width:991px) {
     font-weight: 600;
     font-size: 18px;
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
     color: #212121;
     -webkit-transition: all .5s ease-out 0s;
     transition: all .5s ease-out 0s
@@ -7612,7 +7687,7 @@ only screen and (min-width:768px) and (max-width:991px) {
 .single-info .info-cnt a {
     display: block;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     color: #212121;
     padding: 2.5px 0;
     -webkit-transition: all .5s ease-out 0s;
@@ -7920,8 +7995,9 @@ textarea {
 }
 
 .joining-form p {
-    font-size: 16px;
-    margin: 0
+    font-size: 14px;
+    margin: 0;
+    color: #333;
 }
 
 @media(max-width:767px) {
@@ -7933,15 +8009,18 @@ textarea {
 .joining-form form {
     margin-top: 30px
 }
-
+.f-14 {font-size: 13px;}
+.custom-control-inline { display: inline-flex; margin-right: 15px;}
+.custom-control-inline label {  font-size: 14px; color: #696969; margin-left: 5px; margin-top: -5px;}
+.custom-control  input { width: auto !important; height: auto !important; margin-bottom: 5px !important;}
 .joining-form form input,
 .joining-form form textarea {
     border: 1px solid #eee;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border-radius: 2px;
-    height: 50px;
-    width: 100%;
+    border-radius:5px;
+     width: 100%;
+     height: 35px;
     margin-bottom: 20px;
     font-size: 14px;
     padding: 0 10px
@@ -7970,7 +8049,7 @@ textarea {
 }
 
 .joining-form form textarea {
-    height: 160px;
+    height: 130px;
     resize: none;
     padding: 10px
 }
@@ -8126,6 +8205,9 @@ textarea {
     margin: 0
 }
 
+.food-search .input-group .btn {
+    border-radius: 0px;
+}
 @media(max-width:767px) {
     .blog-left-cnt .quote-box h6 {
         font-size: 18px
@@ -8133,7 +8215,8 @@ textarea {
 }
 
 .blog-left-cnt .quote-box p {
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    font-size: 14px;
 }
 
 .blog-left-cnt .quote-box i {
