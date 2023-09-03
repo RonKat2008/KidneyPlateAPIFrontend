@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import store from "./utils/store";
 import MainContainer from "./components/MainContainer";
 import AboutUs from "./components/AboutUs";
+import ContactUS from "./components/contact";
+import BasicForm from "./components/contact";
 
 const {Provider} = require('react-redux');
 
@@ -24,6 +26,10 @@ const appRouter = createBrowserRouter([
         path: "/AboutUs",
         element: <AboutUs />,
       },
+      {
+        path: "/contact",
+        element: <ContactUS />
+      }
     ],
   },
 ]);
