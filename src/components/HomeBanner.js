@@ -68,12 +68,30 @@ const HomeBanner = ({ name }) => {
                   Why should you diet with Kidney <span> Problems? </span>
                 </h1>
                 <p>
-                  “Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy”
+                  {/* “Diet plays a crucial role in managing kidney problems because
+                  the kidneys are vital organs responsible for filtering waste
+                  and excess substances from the blood to form urine. People
+                  with kidney problems, such as chronic kidney disease (CKD) or
+                  kidney failure, often need to follow specific dietary
+                  guidelines to reduce the workload on their kidneys and
+                  maintain overall health” */}
+                  “People with compromised kidney function must adhere to a
+                  renal or kidney diet to reduce the amount of waste in their
+                  blood. Wastes in the blood come from food and liquids that are
+                  consumed. When kidney function is compromised, the kidneys not
+                  filter or remove waste properly. If waste is left in the
+                  blood, it can negatively affect a patient’s electrolyte
+                  levels. Following a kidney diet may also help promote kidney
+                  function and slow the progression of complete kidney failure.
+                  A renal diet is low in sodium, phosphorous, and protein. A
+                  renal diet also emphasizes consuming high-quality protein and
+                  usually limiting fluids. Some patients may also need to limit
+                  potassium and calcium. Every person’s body is different;
+                  therefore, each patient must work with a renal dietitian to
+                  come up with a diet tailored to the patient’s needs.”
                 </p>
               </div>
-              <div className="bannar-buttonss d-flex">
+              {/* <div className="bannar-buttonss d-flex">
                 <div className="cmn-btn">
                   <a href="foods.html">
                     {" "}
@@ -81,7 +99,7 @@ const HomeBanner = ({ name }) => {
                     <i className="bi-arrow-right-circle-fill"></i>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-5">
               <div

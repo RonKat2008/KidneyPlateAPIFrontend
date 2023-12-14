@@ -211,10 +211,13 @@ const WeHelp = ({ name }) => {
                           data-bs-parent="#accordionExample"
                         >
                           <div class="accordion-body">
-                            Suspendisse elementum risus non quam iaculis ornare.
-                            Phasellus tincidunt ex ligula, et finibus nibh
-                            venenatis et. Vivamus eleifend nibh in velit
-                            tristique, ultricies tempus metus ultricies.
+                            A kidney-friendly diet is crucial for individuals
+                            with kidney problems, as it helps manage kidney
+                            disease and prevent complications. It focuses on
+                            reducing the intake of certain nutrients and
+                            managing overall dietary choices to support kidney
+                            function. Here are key components of a
+                            kidney-friendly diet.
                           </div>
                         </div>
                       </div>
@@ -238,10 +241,16 @@ const WeHelp = ({ name }) => {
                           data-bs-parent="#accordionExample"
                         >
                           <div class="accordion-body">
-                            Suspendisse elementum risus non quam iaculis ornare.
-                            Phasellus tincidunt ex ligula, et finibus nibh
-                            venenatis et. Vivamus eleifend nibh in velit
-                            tristique, ultricies tempus metus ultricies.
+                            Kidney patients, especially those with conditions
+                            like chronic kidney disease (CKD), need to monitor
+                            their sodium intake due to several reasons. High
+                            sodium levels can lead to increased blood pressure,
+                            putting additional strain on the kidneys and
+                            potentially worsening kidney damage. Excessive
+                            sodium in the body also contributes to fluid
+                            retention, causing swelling and edema, which can be
+                            particularly problematic for individuals with
+                            compromised kidney function.
                           </div>
                         </div>
                       </div>
@@ -265,10 +274,15 @@ const WeHelp = ({ name }) => {
                           data-bs-parent="#accordionExample"
                         >
                           <div class="accordion-body">
-                            Suspendisse elementum risus non quam iaculis ornare.
-                            Phasellus tincidunt ex ligula, et finibus nibh
-                            venenatis et. Vivamus eleifend nibh in velit
-                            tristique, ultricies tempus metus ultricies.
+                            Potassium is a vital mineral and an electrolyte that
+                            plays a fundamental role in maintaining various
+                            physiological functions within the human body. It is
+                            crucial for supporting proper muscle and nerve
+                            function, including the heartbeat. Potassium helps
+                            regulate the balance of fluids, ensures the proper
+                            functioning of cells, and assists in transmitting
+                            electrical signals between nerve cells and nerve
+                            impulses to muscles.
                           </div>
                         </div>
                       </div>

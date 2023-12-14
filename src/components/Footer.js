@@ -21,7 +21,7 @@ const Footer = ({ name }) => {
                           <img src={Location} alt={"Location"} />
                         </i>
                       </div>
-                      <p>House#168/170, Road#02, Ave#01, Mirpur DOHS, Dhaka</p>
+                      <p>House#168/170, Road#02, Ave#01, USA</p>
                     </div>
                   </div>
                 </div>
@@ -35,8 +35,8 @@ const Footer = ({ name }) => {
                       </i>
                     </div>
                     <div className="phone">
-                      <a href="tel:01760000032">+880 176 0000 032</a>
-                      <a href="tel:09256806649">+092568 06649</a>
+                      <a href="tel:01760000032">+1 78 45 33 77 55</a>
+                      <a href="tel:09256806649">+1 88 66 55 44 33</a>
                     </div>
                   </div>
                 </div>
@@ -51,10 +51,10 @@ const Footer = ({ name }) => {
                     </div>
                     <div className="email">
                       <a href=" ">
-                        <span className=""> dummyemail@gmail.com</span>
+                        <span className=""> example@gmail.com</span>
                       </a>
                       <a href=" ">
-                        <span className=""> dummyemail@gmail.com</span>
+                        <span className=""> example@gmail.com</span>
                       </a>
                     </div>
                   </div>
@@ -70,7 +70,7 @@ const Footer = ({ name }) => {
                 <div className="copy-txt text-center">
                   <span>
                     {" "}
-                    &#169; Copyright 2022{" "}
+                    &#169; 2023{" "}
                     <b>Healing Kidneys. &nbsp; All Rights Reserved </b>{" "}
                   </span>
                 </div>

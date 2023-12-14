@@ -1,0 +1,21 @@
+
+.style-module_emptyIcons__Bg-FZ{
+    display: flex;
+}
+.style-module_emptyIcons__Bg-FZ .rating-star {
+    fill: orange !important; /* Example style */
+  }
+  .style-module_emptyIcons__Bg-FZ .rs-star {
+    fill: gray !important; /* Set the default fill color */
+    transition: fill 0.2s ease; /* Add transition effect for smooth color change */
+  }
+  .style-module_emptyIcons__Bg-FZ .rs-star:hover {
+    fill: orange !important; /* Set the fill color when hovered */
+  }
+.rating-container {
+    display: flex;
+    align-items: center;
+  }
+  .rating-container .star-rating {
+    margin-right: 10px;
+  }

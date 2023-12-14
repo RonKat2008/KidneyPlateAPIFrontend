@@ -1,0 +1,35 @@
+/* Head.css */
+
+/* Styles for larger screens */
+.menu-list {
+  display: flex;
+  list-style: none;
+}
+
+/* Styles for mobile screens */
+@media (max-width: 768px) {
+  .menu-list {
+    display: none; /* Hide the menu list by default on mobile screens */
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff; /* Set background color for the mobile menu */
+    width: 100%; /* Take full width of the screen */
+    top: 60px; /* Adjust the top position based on your header height */
+    left: 0;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu-list.show {
+    display: flex; /* Show the menu list when the 'show' class is added */
+  }
+
+  .mobile-menu-btn {
+    cursor: pointer;
+  }
+}
+
+/* Additional styles for tablet screens if necessary */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Add tablet-specific styles here if needed */
+}

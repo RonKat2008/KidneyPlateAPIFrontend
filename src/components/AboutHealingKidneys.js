@@ -61,38 +61,53 @@ const AboutHealingKidneys = ({ name }) => {
                 <span> GET TO KNOW ABOUT Healing Kidneys </span>
                 <h2> We advise you to prevent disease with nutrition. </h2>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                  Certainly, focusing on nutrition and adopting a healthy
+                  lifestyle can contribute significantly to kidney health and
+                  potentially prevent certain kidney diseases. Here are some key
+                  points to consider for maintaining kidney health through
+                  nutrition and lifestyle.
                 </p>
                 <ul className="intro-list">
                   <li>
                     <i>
                       <img src={Check} alt={"Check"} />
                     </i>
-                    Nutritional assessment.
+                    Limiting Sodium Intake.
                   </li>
                   <li>
                     <i>
                       <img src={Check} alt={"Check"} />
                     </i>
-                    Meal planning and analysis.
+                    Controlling Protein Consumption.
                   </li>
                   <li>
                     <i>
                       <img src={Check} alt={"Check"} />
                     </i>
-                    Weight assessment.
+                    Managing Potassium Levels.
+                  </li>
+                  <li>
+                    {" "}
+                    <i>
+                      <img src={Check} alt={"Check"} />
+                    </i>
+                    Limiting Fluids.
+                  </li>
+                  <li>
+                    {" "}
+                    <i>
+                      <img src={Check} alt={"Check"} />
+                    </i>
+                    Preserving Nutritional Balance.
                   </li>
                 </ul>
-                <div className="cmn-btn">
+
+                {/* <div className="cmn-btn">
                   <a href="about.html">
                     More About &nbsp;{" "}
                     <i className="bi-arrow-right-circle-fill"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -119,12 +134,14 @@ const AboutHealingKidneys = ({ name }) => {
                   <div className="project-inner three">
                     <h4> Healthy daily life </h4>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                      Maintaining a healthy daily life involves a combination of
+                      balanced nutrition, regular physical activity, adequate
+                      rest, stress management, and other positive lifestyle
+                      choices. Here are some key aspects of a healthy daily life
                     </p>
-                    <a className="one" href=" ">
+                    {/* <a className="one" href=" ">
                       View Details
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -148,12 +165,15 @@ const AboutHealingKidneys = ({ name }) => {
                   <div className="project-inner three">
                     <h4> Fat-burning workouts </h4>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                      Fat-burning workouts are designed to increase your heart
+                      rate, boost your metabolism, and burn calories, helping
+                      you lose body fat and improve overall fitness. Here are
+                      several types of effective fat-burning workouts you can
+                      incorporate into your fitness routine.
                     </p>
-                    <a className="one" href=" ">
+                    {/* <a className="one" href=" ">
                       View Details
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -177,12 +197,13 @@ const AboutHealingKidneys = ({ name }) => {
                   <div className="project-inner three">
                     <h4> Improving Health </h4>
                     <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                      Improving your health involves making positive changes in
+                      various aspects of your life. Here are some holistic
+                      approaches to improve your overall health and well-being.
                     </p>
-                    <a className="one" href=" ">
+                    {/* <a className="one" href=" ">
                       View Details
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

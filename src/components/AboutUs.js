@@ -43,30 +43,63 @@ const AboutUs = ({ name }) => {
                 data-wow-delay="400ms"
                 data-wow-duration="1500ms"
               >
-                <span> ABOUT Healing Kidneys </span>
-                <h2> We advise you to prevent disease with nutrition. </h2>
+                <h5>Introduction:</h5>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged.
+                  {" "}
+                  At HealingKidneys, we are dedicated to promoting kidney health
+                  and well-being through education, awareness, and practical
+                  guidance. Learn more about the team behind this initiative and
+                  our mission to empower individuals to make informed choices
+                  for kidney health.
                 </p>
+                <h5>Our Mission:</h5>
+                <p>
+                  {" "}
+                  HealingKidneys was founded with a clear mission: to provide
+                  accessible and reliable information about kidney health and
+                  the vital role that diet plays in maintaining and improving
+                  kidney function. We aim to make this information available to
+                  individuals of all ages and backgrounds, with a special focus
+                  on helping those who may be at risk of kidney disease or are
+                  already managing kidney-related conditions.
+                </p>
+                <h5>Why We Care:</h5>
+                <p>
+                  {" "}
+                  Our team is united by a shared commitment to kidney health
+                  advocacy.
+                </p>
+                <h5>Our Approach:</h5>
 
                 <p>
-                  It was popularised in the 1960s with the release of Letraset
-                  sheets containing Lorem Ipsum passages, and more recently with
-                  desktop publishing software like Aldus PageMaker including
-                  versions of Lorem Ipsum.
+                  At HealingKidneys, we believe that knowledge is power. We are
+                  committed to delivering accurate, up-to-date, and
+                  easy-to-understand information to help individuals take
+                  control of their kidney health journey. Our content is
+                  thoroughly researched and reviewed by our team of experts to
+                  ensure reliability.
                 </p>
-
+                <h5>Get Involved:</h5>
                 <p>
-                  It was popularised in the 1960s with the release of Letraset
-                  sheets containing Lorem Ipsum passages, and more recently with
-                  desktop publishing software like Aldus PageMaker including
-                  versions of Lorem Ipsum.
+                  {" "}
+                  We encourage you to get involved in our mission to promote
+                  kidney health. Whether you're looking for information,
+                  support, or ways to contribute, we welcome your participation
+                  in our community.
+                </p>
+                <h5>Contact Us:</h5>
+                <p>
+                  {" "}
+                  If you have questions, suggestions, or simply want to connect
+                  with our team, we'd love to hear from you. Please don't
+                  hesitate to reach out through our.
+                </p>
+                <h5>Conclusion:</h5>
+                <p>
+                  Thank you for visiting HealingKidneys. We are dedicated to
+                  being your trusted resource for kidney health information.
+                  Together, we can make strides toward healthier kidneys and a
+                  better quality of life.
                 </p>
               </div>
             </div>
@@ -74,7 +107,7 @@ const AboutUs = ({ name }) => {
         </div>
       </section>
 
-      <section
+      {/* <section
         className="team-member sec-mar-top sec-mar-bottom wow animate fadeInUp"
         data-wow-delay="400ms"
         data-wow-duration="1500ms"
@@ -272,7 +305,7 @@ const AboutUs = ({ name }) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

@@ -201,9 +201,9 @@ const MainContainer = () => {
 
       <HomeBanner />
       <AboutHealingKidneys />
-      <WeHelp />
-      <HomeContact />
-      <Testimonial />
+      {/* <WeHelp /> */}
+      {/* <HomeContact /> */}
+      {/* <Testimonial /> */}
     </div>
   );
 };

@@ -17,7 +17,7 @@ const HomeContact = ({ name }) => {
             </div>
             <div className="col-md-3">
               <div className="joinnow-btn">
-                <a href=" "> Contact Us </a>
+                <a href="/contact"> Contact Us </a>
               </div>
             </div>
           </div>
